@@ -4,108 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiki de Shadowrun</title>
-    <link rel="stylesheet" href="/../style.css" />
+    <link rel="stylesheet" href="/../styles.css" />
     <link rel="icon" href="/../assets/icon-site.jpg" />
 </head>
 <body>
     <header>
-        <h1>Wiki de Shadowrun</h1>
-        <nav>
-            <ul>
-                <li><a href="/../index.html">Sumário</a></li>
-                <li><a href="/../pages/jogadores.html">Jogadores</a></li>
-                <li><a href="/../pages/npcs.html">NPCs</a></li>
-                <li><a href="/../pages/livro/livro.html">O Livro</a></li>
-                <li><a href="/../pages/sessoes.html">Sessões</a></li>
-                <li><a href="/../pages/interesse.html">Links de Interesse</a></li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <h1><a href="/../index.html">Wiki de Shadowrun</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/../index.html">Sumário</a></li>
+                    <li><a href="/../pages/jogadores.html">Jogadores</a></li>
+                    <li><a href="/../pages/npcs.html">NPCs</a></li>
+                    <li><a href="/../pages/livro/livro.html">Livro de Regras</a></li>
+                    <li><a href="/../pages/sessoes.html">Sessões</a></li>
+                    <li><a href="/../pages/interesse.html">Links</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="home">
-            <h2>Bem-vindes</h2>
-            <p>Wiki traduzida e comentada por Mila.</p>
-        </section>
+    <div class="main-container">
 
-        <section id="jogadores">
-            <h2><a href="/pages/jogadores.html">Jogadores:</a></h2>
-            <ul id="jogadores-lista">
-                <li>Clarão</li>
-                <li>Desodorante</li>
-                <li>Jessie Smirnoff</li>
-                <li>Tigrinho</li>
-            </ul>
-        </section>
+        <!-- CONTEÚDO PRINCIPAL COMEÇA AQUI -->
+        <main class="main-content">
+            <div class="content-wrapper">
+                <h1>Bem-vindes à Wiki Shadowrun</h1>
+                
+                <div class="info">
+                    <p><strong>Wiki traduzida e comentada por Mila. Complementada por André</strong> Um presente para uma pessoa muito talentosa e esforçada. Será atualizada esporadicamente.</p>
+                </div>
 
-        <section id="npcs">
-            <h2><a href="/pages/npcs.html">NPCs:</a></h2>
-            <ul id="npcs-lista">
-                <li>Samuel Garcia</li>
-                <li>Renato Monteiro</li>
-                <li>Heitor Noronha</li>
-                <li>Gabriel Assis</li>
-                <li>Pai da Smirnoff</li>
-            </ul>
-        </section>
+                <div class="home-grid">
+                    <section id="jogadores" class="home-section">
+                        <h2><a href="/pages/jogadores.html">Jogadores</a></h2>
+                        <ul>
+                            <li><strong>Clarão</strong> - André</li>
+                            <li><strong>Desodorante</strong> - Rafa</li>
+                            <li><strong>Jessie Smirnoff</strong> - Naty</li>
+                            <li><strong>Tigrinho</strong> - Arthur</li>
+                        </ul>
+                    </section>
 
-        <section id="livro">
-            <h2><a href="/pages/livro/livro.html">O Livro de Regras:</a></h2>
-            <ul id="livro-lista">
-                <li><a href="/pages/livro/equipamentos/equipamentos.html">Equipamentos</a></li>
-                <li><a href="/pages/livro/feitiços/feiticos.html">Feitiços</a></li>
-                <li><a href="/pages/livro/habilidades/habilidades.html">Habilidades</a></li>
-                <li><a href="/pages/livro/qualidades/qualidades.html">Qualidades</a></li>
-            </ul>
-        </section>
+                    <section id="npcs" class="home-section">
+                        <h2><a href="/../pages/npcs.html">NPCs</a></h2>
+                        <ul>
+                            <li><strong>Samuel Garcia</strong></li>
+                            <li><strong>Renato Monteiro</strong></li>
+                            <li><strong>Heitor Noronha</strong></li>
+                            <li><strong>Gabriel Assis</strong></li>
+                            <li><strong>Pai da Smirnoff</strong></li>
+                            <li><strong>Entre outros...</strong></li>
+                        </ul>
+                    </section>
 
-        <section id="sessoes">
-            <h2><a href="/pages/sessoes.html">Sessões:</a></h2>
-            <ul id="sessoes-lista">
-                <!--é pra abrir em outra aba-->
-                <li><a href="https://youtu.be/H2h73yudR8k"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Sessão 0 #1
-                </a></li>
-                <li><a href="https://youtu.be/i9O5GEYK0ts"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Sessão 0 #2 parte 1
-                </a></li>
-                <li><a href="https://youtu.be/xY3rOOO5ey4"
-                    target="_blank"
-                    rel="noopener nreferrer">
-                    Sessão 0 #3 parte final
-                </a></li>
-                <li><a href="https://youtu.be/HJHWEioNUrI"
-                    target="_blank"
-                    rel="noopener nreferrer">
-                    Sessão 0 #4
-                </a></li>
-            </ul>
-        </section>
+                    <section id="livro" class="home-section">
+                        <h2><a href="/../pages/livro/livro.html">Livro de Regras</a></h2>
+                        <ul>
+                            <li><a href="/../pages/livro/equipamentos/equipamentos.html">Equipamentos</a></li>
+                            <li><a href="/../pages/livro/feitiços/feiticos.html">Feitiços</a></li>
+                            <li><a href="/../pages/livro/habilidades/habilidades.html">Habilidades</a></li>
+                            <li><a href="/../pages/livro/qualidades/qualidades.html">Qualidades</a></li>
+                        </ul>
+                    </section>
 
-        <section id="interesse">
-            <h2><a href="/pages/interesse.html">Links de Interesse:</a></h2>
-            <li><a href="https://www.dndbeyond.com/resources/1779-d-d-character-sheets"
-                target="_blank"
-                rel="noopener noreferrer">
-                Official Character Sheets
-            </a></li>
-            <li><a href="https://www.r-n-w.net"
-                target="_blank"
-                rel="noopener noreferrer">
-                Better Character Sheets
-            </a></li>
-        </section>
+                    <section id="sessoes" class="home-section">
+                        <h2><a href="/../pages/sessoes.html">Sessões</a></h2>
+                        <ul>
+                            <li><a href="" target="_blank" rel="noopener noreferrer">Sessão 0 #1</a></li>
+                            <li><a href="" target="_blank" rel="noopener noreferrer">Sessão 0 #2 - Parte 1</a></li>
+                            <li><a href="" target="_blank" rel="noopener noreferrer">Sessão 0 #3 - Parte 2</a></li>
+                            <li><a href="" target="_blank" rel="noopener noreferrer">Sessão 0 #4</a></li>
+                        </ul>
+                    </section>
+                </div>
 
-    </main>
+                <div class="mt-2">
+                    <section id="interesse" class="home-section">
+                        <h2><a href="/../pages/interesse.html">Links de Interesse</a></h2>
+                        <div class="info">
+                            <ul>
+                                <li><a href="https://www.dndbeyond.com/resources/1779-d-d-character-sheets" 
+                                      target="_blank" rel="noopener noreferrer">
+                                     Official Character Sheets (D&D Beyond)
+                                </a></li>
+                                <li><a href="https://www.r-n-w.net" 
+                                      target="_blank" rel="noopener noreferrer">
+                                     Better Character Sheets (R-N-W)
+                                </a></li>
+                                <li><a href="https://shadowrun.fandom.com/wiki/Shadowrun_Wiki" 
+                                      target="_blank" rel="noopener noreferrer">
+                                     Shadowrun Wiki Oficial
+                                </a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
 
     <footer>
-        <p>© 2020 - 2025 / Shadowrun da Mila</p>
+        <p>© 2020 - 2026 / Shadowrun da Mila</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="/../script.js"></script>
 </body>
 </html>

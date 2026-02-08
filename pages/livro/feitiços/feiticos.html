@@ -4,10 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feitiços</title>
-    <link rel="stylesheet" href="/../style.css" />
+    <link rel="stylesheet" href="/../styles.css" />
     <link rel="icon" href="/../assets/icon-site.jpg" />
 </head>
 <body>
+<header>
+        <div class="header-container">
+            <h1><a href="/../index.html">Wiki de Shadowrun</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="/../index.html">Sumário</a></li>
+                    <li><a href="/../pages/jogadores.html">Jogadores</a></li>
+                    <li><a href="/../pages/npcs.html">NPCs</a></li>
+                    <li><a href="/../pages/livro/livro.html">Livro de Regras</a></li>
+                    <li><a href="/../pages/sessoes.html">Sessões</a></li>
+                    <li><a href="/../pages/interesse.html">Links</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-container">
+    <main class="main-content">   
+
+    <div class="container">
+        <h1>Feitiços</h1>
+        <h2>Tabela de Feitiços</h1>
+        <h4>Para descrição dos feitiços, clique aqui.</h4>
+
+        <div class="filtros">
+            <div class="filtro-grupo">
+                <label for="filtro-escola">Filtrar por Escola:</label>
+                <select id="filtro-escola">
+                    <option value="todas">Todas as Escolas</option>
+                    <option value="Combate">Combate</option>
+                    <option value="Detecção">Detecção</option>
+                    <option value="Saúde">Saúde</option>
+                    <option value="Ilusão">Ilusão</option>
+                    <option value="Manipulação">Manipulação</option>
+                </select>
+            </div>
+            
+            <div class="filtro-grupo">
+                <label for="filtro-nome">Buscar por Nome:</label>
+                <input type="text" id="filtro-nome" placeholder="Digite o nome da magia...">
+            </div>
+            
+            <div class="filtro-grupo">
+                <label for="filtro-tipo">Filtrar por Tipo:</label>
+                <select id="filtro-tipo">
+                    <option value="todos">Todos os Tipos</option>
+                    <option value="FísicoIndireto">Físico Indireto</option>
+                    <option value="DiretoMana">Direto Mana</option>
+                    <option value="DiretoFísico">Direto Físico</option>
+                    <option value="Físico">Físico</option>
+                    <option value="Mana">Mana</option>
+                    <option value="ManaSingle-Sense">Mana Single-Sense</option>
+                    <option value="ManaMulti-Sense">Mana Multi-Sense</option>
+                    <option value="FísicoMulti-Sense">Físico Multi-Sense</option>
+                    <option value="FísicoSingle-Sense">Físico Single-Sense</option>
+                </select>
+            </div>
+            
+            <div class="filtro-grupo">
+                <label for="filtro-dv">Valor de Dreno Máximo:</label>
+                <select id="filtro-dv">
+                    <option value="10">Qualquer DV</option>
+                    <option value="1">DV 1</option>
+                    <option value="2">DV 2</option>
+                    <option value="3">DV 3</option>
+                    <option value="4">DV 4</option>
+                    <option value="5">DV 5</option>
+                    <option value="6">DV 6</option>
+                    <option value="7">DV 7</option>
+                </select>
+            </div>
+        </div>
+        
+       
+        
+        <table id="tabela-magias">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Escola</th>
+                    <th>Alcance</th>
+                    <th>Tipo</th>
+                    <th>Duração</th>
+                    <th>DV</th>
+                    <th>Dano/Efeito</th>
+                </tr>
+            </thead>
+            <tbody id="corpo-tabela">
+                <!-- Os dados serão inseridos aqui via JavaScript -->
+            </tbody>
+        </table>
+        </div>
+        
+
+    <script src="/../js/dados.js"></script>
     
+    
+
+</main>
 </body>
 </html>

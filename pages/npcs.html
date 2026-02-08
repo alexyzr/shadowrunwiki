@@ -4,36 +4,258 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NPCs</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="/assets/icon-site.jpg" />
+    <link rel="stylesheet" href="/../styles.css" />
+    <link rel="icon" href="/../assets/icon-site.jpg" />
 </head>
 <body>
-        <header>
+    <header>
+        <div class="header-container">
         <h1>Wiki de Shadowrun</h1>
         <nav>
             <ul>
-                <li><a href="/index.html">Sumário</a></li>
-                <li><a href="/pages/jogadores.html">Jogadores</a></li>
-                <li><a href="/pages/npcs.html">NPCs</a></li>
-                <li><a href="/pages/livro/livro.html">O Livro</a></li>
-                <li><a href="/pages/sessoes.html">Sessões</a></li>
-                <li><a href="/pages/interesse.html">Links de Interesse</a></li>
+                <li><a href="/../index.html">Sumário</a></li>
+                <li><a href="/../pages/jogadores.html">Jogadores</a></li>
+                <li><a href="/../pages/npcs.html">NPCs</a></li>
+                <li><a href="/../pages/livro/livro.html">O Livro</a></li>
+                <li><a href="/../pages/sessoes.html">Sessões</a></li>
+                <li><a href="/../pages/interesse.html">Links de Interesse</a></li>
             </ul>
         </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="npcs">
-            <h2><a href="/pages/npcs.html">NPCs:</a></h2>
-            <ul id="npcs-lista">
-                <li>Samuel Garcia</li>
-                <li>Renato Monteiro</li>
-                <li>Heitor Noronha</li>
-                <li>Gabriel Assis</li>
-                <li>Pai da Smirnoff</li>
-            </ul>
-        </section>
-    </main>
-    
+    <div class="main-container">
+        <main class="main-content">
+            <div class="content-wrapper">
+                <h1>NPCs</h1>
+                
+                <div class="info">
+                    <p>Lista e imagens dos personagens não controlados pelos jogadores e seu estado atual.</p>
+                </div>
+
+                <section>
+                    <h2>Contatos Importantes</h2>
+                    <p>Vulgo NPCs que tiveram a honra de receber fotinha.</p>
+                    
+                    <div class="npc-grid">
+                        <div class="npc-card">
+                            <div class="npc-image-container">
+                                <img src="/../assets/npcs/samuel-garcia.jpg" alt="Samuel Garcia" class="npc-image" 
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <!-- Placeholder que aparece se a imagem não carregar -->
+                                 <!-- lembrar de usar 400x300 se possivel pra imagens -->
+                                <div class="npc-image-placeholder" style="display: none;">
+                                    <div>
+                                        <div>Samuel Garcia</div>
+                                        <div style="font-size: 0.8rem; margin-top: 0.3rem;">Imagem não disponível</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="npc-info">
+                                <h3 class="npc-name">Samuel Garcia</h3>
+                                
+                                <div class="npc-detail">
+                                    <strong>Situação:</strong> Gostoso e útil. Encher um pouco depois.
+                                </div>
+                                
+                                <div class="npc-status status-alive">
+                                    Status: Vivo
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Renato Monteiro -->
+                        <div class="npc-card">
+                            <div class="npc-image-container">
+                                <img src="/../assets/npcs/renato-monteiro.jpg" alt="Renato Monteiro" class="npc-image"
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="npc-image-placeholder" style="display: none;">
+                                    <div>
+                                        <div>Renato Monteiro</div>
+                                        <div style="font-size: 0.8rem; margin-top: 0.3rem;">Imagem não disponível</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="npc-info">
+                                <h3 class="npc-name">Renato Monteiro</h3>
+                                
+                                <div class="npc-detail">
+                                    <strong>Situação:</strong> Empregado pelo Tigrinho e fornecedor.
+                                </div>
+                                
+                                <div class="npc-status status-alive">
+                                    Status: Vivo
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Heitor Noronha -->
+                        <div class="npc-card">
+                            <div class="npc-image-container">
+                                <img src="/../assets/npcs/heitor-noronha.jpg" alt="Heitor Noronha" class="npc-image"
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="npc-image-placeholder" style="display: none;">
+                                    <div>
+                                        <div>Heitor Noronha</div>
+                                        <div style="font-size: 0.8rem; margin-top: 0.3rem;">Imagem não disponível</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="npc-info">
+                                <h3 class="npc-name">Heitor Noronha</h3>
+                                
+                                <div class="npc-detail">
+                                    <strong>Situação:</strong> Alguém
+                                </div>
+                                
+                                <div class="npc-status status-alive">
+                                    Status: Vivo
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Gabriel Assis -->
+                        <div class="npc-card">
+                            <div class="npc-image-container">
+                                <img src="/../assets/npcs/gabriel-assis.jpg" alt="Gabriel Assis" class="npc-image"
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="npc-image-placeholder" style="display: none;">
+                                    <div>
+                                        <div>Gabriel Assis</div>
+                                        <div style="font-size: 0.8rem; margin-top: 0.3rem;">Imagem não disponível</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="npc-info">
+                                <h3 class="npc-name">Gabriel Assis</h3>
+                                
+                                <div class="npc-detail">
+                                    <strong>Situação:</strong> Eu não lembro
+                                </div>
+                                
+                                <div class="npc-status status-alive">
+                                    Status: Vivo
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pai da Smirnoff -->
+                        <div class="npc-card">
+                            <div class="npc-image-container">
+                                <img src="/../assets/npcs/pai-smirnoff.jpg" alt="Pai da Smirnoff" class="npc-image"
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="npc-image-placeholder" style="display: none;">
+                                    <div>
+                                        <div>Pai da Smirnoff</div>
+                                        <div style="font-size: 0.8rem; margin-top: 0.3rem;">Imagem não disponível</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="npc-info">
+                                <h3 class="npc-name">Pai da Smirnoff</h3>
+                                
+                                <div class="npc-detail">
+                                    <strong>Situação:</strong> Pai da Jessie Smirnoff
+                                </div>
+                                
+                                <div class="npc-status status-alive">
+                                    Status: Vivo
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lider do Protesto -->
+                         <div class="npc-card">
+                            <div class="npc-image-container">
+                                <img src="/../assets/npcs/lider-do-protesto.jpg" alt="Pai da Smirnoff" class="npc-image"
+                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="npc-image-placeholder" style="display: none;">
+                                    <div>
+                                        <div>Líder do Protesto</div>
+                                        <div style="font-size: 0.8rem; margin-top: 0.3rem;">Imagem não disponível</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="npc-info">
+                                <h3 class="npc-name">Líder do Protesto</h3>
+                                
+                                <div class="npc-detail">
+                                    <strong>Situação:</strong> Eu não lembro o nome dela desculpa. Negou um poster da Fernanda Torres para Clarão.
+                                </div>
+                                
+                                <div class="npc-status status-alive">
+                                    Status: Vivo
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- tabela com todos eles -->
+                <!-- <td><span style="color: #ff7b72;">Desaparecido</span></td> -->
+                <section class="mt-2">
+                    <h2>NPCs de História</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Papel</th>
+                                <th>Afiliação</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Heitor Noronha</td>
+                                <td>Fixer da região</td>
+                                <td>Neutro</td>
+                                <td><span style="color: #7ee787;">Vivo</span></td>
+                            </tr>
+                            <tr>
+                                <td>Gabriel Assis</td>
+                                <td>Não Lembro</td>
+                                <td>Aliado</td>
+                                <td><span style="color: #7ee787;">Vivo</span></td>
+                            </tr>
+                            <tr>
+                                <td>Pai da Smirnoff</td>
+                                <td>NPC de história</td>
+                                <td>Família</td>
+                                <td><span style="color: #7ee787;">Vivo</span></td>
+                            </tr>
+                            <tr>
+                                <td>Seu Armando</td>
+                                <td>Médico</td>
+                                <td>Contato</td>
+                                <td><span style="color: #7ee787;">Vivo</span></td>
+                            </tr>
+                            <tr>
+                                <td>Líder do Protesto</td>
+                                <td>Líder do Protesto</td>
+                                <td>Contato</td>
+                                <td><span style="color: #7ee787;">Vivo</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+        
+            </div>
+        </main>
+    </div>
+    </div>
+
+    <footer>
+        <p>© 2020 - 2025 / Shadowrun da Mila</p>
+    </footer>
+
+    <script src="/../script.js"></script>
 </body>
 </html>
